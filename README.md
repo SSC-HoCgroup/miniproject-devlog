@@ -13,7 +13,7 @@ The following programs should be installed on your development environment:
 - Git (v. 2.3.2+)
 - Ruby (v. 2.0+)
 - RubyGems (v. 2.4.5+)
-- Rails (v. )
+- Rails (v. 4.2.0+)
 - SQLite (v. 3.8.5+)
 - GitHub account ([sign up for a free account here](https://www.github.com/join))
 
@@ -26,7 +26,7 @@ You should also probably review these resources:
 - [#HourofCode (Week 7, Winter 2015) - Introduction to Ruby on Rails, pt. 2](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/8SOXti92Q_w)
 - [#HourofCode (Week 8, Winter 2015) - Introduction to Ruby on Rails, pt. 3](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/K2dw5gHo_5o)
 
-#### Pro-Tips: Read the Errors, and Take Your Time
+#### Pro-Tips: Slow Down, Read the Errors, and Take Notes
 
 ##### Pro-Tip #1: Slow Down and Figure It Out
 
