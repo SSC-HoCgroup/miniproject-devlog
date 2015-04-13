@@ -4,7 +4,7 @@ This project will allow participants to gain familiarity and comfort with coding
 
 #### Project Description
 
-For this project, we will create a new Ruby on Rails (or "RoR") application from scratch. We will build a Developer Blog, which you can use locally (on your computer only), or put online later for the whole Internet to see. This Blog should serve as a record for what you're learning as you learn it. Use it to store notes and other helpful resources for your reference later on.
+For this project, we will create a new Ruby on Rails (or "RoR") application from scratch. We will build a Developer Blog, which you can use on your computer (stored "locally"), or put online later for the whole Internet to see (stored "remotely"). This Blog should serve as a record for what you're learning as you learn it. Use it to store notes and other helpful resources for your reference later on.
  
 #### Requirements
 
@@ -26,17 +26,22 @@ You should also probably review these resources:
 - [#HourofCode (Week 7, Winter 2015) - Introduction to Ruby on Rails, pt. 2](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/8SOXti92Q_w)
 - [#HourofCode (Week 8, Winter 2015) - Introduction to Ruby on Rails, pt. 3](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/K2dw5gHo_5o)
 
-##### **Pro-Tips: Read the Errors, and Take Your Time**
+#### Pro-Tips: Read the Errors, and Take Your Time
 
-When you run into errors (which will happen to everyone, regardless of skill level), it's important to **stop** and **read these errors carefully**. Ruby on Rails (or "RoR") has very descriptive and human-friendly error messages, which are designed to inform you (the developer) about problems RoR has encountered while trying to run your code.
+##### Pro-Tip #1: Slow Down and Figure It Out
+
+When you run into errors (which happens to *everyone*, regardless of skill level), it's important to **stop coding and read these errors carefully**. Ruby on Rails (or "RoR") has very descriptive and human-friendly error messages, which are designed to inform you (the developer) about problems RoR has encountered while trying to run your code.
 
 It's tempting for new developers to try to fix errors as quickly as possible so they can get back to the fun part (coding!). However, it won't help you learn *why* an error occurred if you simply apply some one else's fix to the problem. 
 
-**REMEMBER: It's more important to figure out why you're getting an error than it is to fix it**. After all, we're here to learn! 
+**It's just as important to figure out *why* you're getting an error as it is to fix it**. After all, we're here to learn! 
 
-Lastly, when you run into errors, remember to **slow down and make notes of any fixes you make**. It's easy to lose track of the changes you've made after you apply more than 3 or 4 fixes, and you may have made a mistake early on that's stopping the fix from working. 
+##### Pro-Tip #2: Make Notes of Changes/Fixes You Make
 
-**SO: Take notes of which fixes you made** to make it easier for you (and anyone helping you) to track down where the problem actually lies.  
+When you fix errors and "bugs", remember to **make notes of any fixes you make**. It's easy to lose track of the changes you've made after you apply more than 3 or 4 fixes. You may have made a mistake early on that's stopping the fix from working.
+
+**Take notes of which fixes you made** to make it easier for you (and anyone helping you) to track down where the problem actually lies. 
+
 
 #### Step 1: Verify Your Environment Setup
 
