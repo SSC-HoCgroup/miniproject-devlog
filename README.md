@@ -40,7 +40,7 @@ It's tempting for new developers to try to fix errors as quickly as possible so 
 
 When you fix errors and "bugs", remember to **make notes of any fixes you make**. It's easy to lose track of the changes you've made after you apply more than 3 or 4 fixes. You may have made a mistake early on that's stopping the fix from working.
 
-**Take notes of which fixes you made** to make it easier for you (and anyone helping you) to track down where the problem actually lies. 
+**Take notes of which changes you've made** to make it easier for you (and anyone helping you) to track down where the problem actually lies. 
 
 
 #### Step 1: Verify Your Environment Setup
@@ -76,7 +76,7 @@ sqlite3 --version
 ```
 result --> 3.8.5 2014-08-15 22:37:57 c8ade949d4a2eb3bba4702a4a0e17b405e9b6ace
 
-Much of this project will involve using the Command Line. Whenever you see a command (like those above), which usually has the following format:
+Much of this project will involve using the Command Line. Whenever you see a command (like those above), which has the following format:
 
 ```
 <program> <action> <-flags>
@@ -87,7 +87,7 @@ For example:
 ```
 git add MyDoc.md
 ```
-The above command tells the program **git** to **add** the file titled *MyDoc.md** to the current repository. 
+The above command tells the program **git** to **add** the file titled **MyDoc.md** to the current repository. 
 
 #### Step 2:  Creating a new Rails Project
 
@@ -107,13 +107,7 @@ rails new miniproject-devlog
 ```
 result --> Creates a new folder `miniproject-devlog` in my current ("working") directory
 
-#### Step 3: Take Notes About What's New to You
-
-While you go through the "Getting Started with Rails" tutorial, you will come across vocabulary and concepts that is new to you. When you do, write it down! You can reference these notes to update us on your progress, to figure out which questions you want to ask, and to get help from the #HourofCode coordinators.
-
-Additionally, after you've completed this project, you can put your notes into your new Dev Log to use for easy reference later on.
-
-#### Step 4: Use Git + GitHub to Save Your Code Base
+#### Step 3: Use Git + GitHub to Save Your Code Base
 
 After you've created your new Rails project, you want to create a git repository on your computer (a "local" copy), as well as a repository on GitHub to store it online (a "remote" copy).
 
@@ -197,6 +191,13 @@ git push -u miniproject-remote master
 ```
 
 The `-u` flag will tell Git to save these settings. After you've run this command successfully, you can do all additional pushes by using just the `git push` command, without any additional conditions. 
+
+
+#### Step 4: Take Notes of What's New to You
+
+While you go through the "Getting Started with Rails" tutorial (below), you will come across vocabulary and concepts that is new to you. When you do, write it down! You can reference these notes to update us on your progress, to figure out which questions you want to ask, and to get help from the #HourofCode coordinators.
+
+Additionally, after you've completed this project, you can put your notes into your new Dev Log to use for easy reference later on.
 
 #### Step 5: Use the "Getting Started with Rails" Tutorial
 
