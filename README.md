@@ -29,7 +29,7 @@ If you haven't used Git/Ruby/RubyonRails for awhile, you should probably review 
 
 #### Pro-Tips: Slow Down, Read the Errors, and Take Notes
 
-##### Pro-Tip #1: Slow Down and Figure It Out
+- ##### Pro-Tip #1: Slow Down and Figure It Out
 
 When you run into errors (which happens to *everyone*, regardless of skill level), it's important to **stop coding and read these errors carefully**. Ruby on Rails (or "RoR") has very descriptive and human-friendly error messages, which are designed to inform you (the developer) about problems RoR has encountered while trying to run your code.
 
@@ -37,7 +37,7 @@ It's tempting for new developers to try to fix errors as quickly as possible so 
 
 **It's just as important to figure out *why* you're getting an error as it is to fix the error**. After all, we're here to learn!
 
-##### Pro-Tip #2: Make Notes of Changes/Fixes You Make
+- ##### Pro-Tip #2: Make Notes of Changes/Fixes You Make
 
 When you fix errors and "bugs", remember to **make notes of any fixes you make**. It's easy to lose track of the changes you've made after 3 - 4 error fixes, or changes that are made over the course of several days/weeks. 
 
