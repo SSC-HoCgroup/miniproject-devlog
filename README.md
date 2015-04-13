@@ -216,7 +216,7 @@ Your goal is to complete the objectives in [Chapter 1](http://guides.rubyonrails
 
 #### Step 6: Let Us Know How It's Going!
 
-As you work on your RoR project, check-in with us by responding to the [Week 1 - RoR Mini-Project discussion thread](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/wjkXsrA3jiQ) on #HourofCode's Google Group. 
+As you work on your RoR project, check-in with us by responding to the [Week 1 - RubyonRails Mini-Project discussion thread](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/wjkXsrA3jiQ) on #HourofCode's Google Group. 
 
 Let us know how things are going! Such as:
 - Errors you've encountered
