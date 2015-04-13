@@ -1,4 +1,4 @@
-## Mini-Project: Dev Log
+## Mini-Project: Dev Log (Part 1)
 
 This project will allow participants to gain familiarity and comfort with coding in Ruby on Rails. Participants will also practice additional skills such as Git, SQL, SQLite, and using the UNIX Command Line.
 
@@ -15,9 +15,10 @@ The following programs should be installed on your development environment:
 - RubyGems (v. 2.4.5+)
 - Rails (v. 4.2.0+)
 - SQLite (v. 3.8.5+)
-- GitHub account ([sign up for a free account here](https://www.github.com/join))
 
-You should also probably review these resources:
+Also, make sure you have a GitHub account ([sign up for a free account here](https://www.github.com/join)).
+
+If you haven't used Git/Ruby/RubyonRails for awhile, you should probably review these resources:
 
 - [#HourofCode (Week 4, Winter 2015) - Setting up a UNIX on your computer](https://groups.google.com/forum/#!topic/hourofcode-at-southseattlecollege/WKWb85YrHqA)
 - [Try Git](https://try.github.io) (Git Basics)
@@ -32,13 +33,13 @@ You should also probably review these resources:
 
 When you run into errors (which happens to *everyone*, regardless of skill level), it's important to **stop coding and read these errors carefully**. Ruby on Rails (or "RoR") has very descriptive and human-friendly error messages, which are designed to inform you (the developer) about problems RoR has encountered while trying to run your code.
 
-It's tempting for new developers to try to fix errors as quickly as possible so they can get back to the fun part (coding!). However, it won't help you learn *why* an error occurred if you simply apply some one else's fix to the problem. 
+It's tempting for new developers to try to fix errors as quickly as possible so they can get back to the fun part (coding!). However, it won't help you learn *why* an error occurred if you simply apply someone else's fix to the problem or try to fix it too quickly. 
 
-**It's just as important to figure out *why* you're getting an error as it is to fix it**. After all, we're here to learn! 
+**It's just as important to figure out *why* you're getting an error as it is to fix the error**. After all, we're here to learn!
 
 ##### Pro-Tip #2: Make Notes of Changes/Fixes You Make
 
-When you fix errors and "bugs", remember to **make notes of any fixes you make**. It's easy to lose track of the changes you've made after you apply more than 3 or 4 fixes. You may have made a mistake early on that's stopping the fix from working.
+When you fix errors and "bugs", remember to **make notes of any fixes you make**. It's easy to lose track of the changes you've made after 3 - 4 error fixes, or changes that are made over the course of several days/weeks. 
 
 **Take notes of which changes you've made** to make it easier for you (and anyone helping you) to track down where the problem actually lies. 
 
@@ -93,23 +94,23 @@ The above command tells the program **git** to **add** the file titled **MyDoc.m
 
 The first real test of your development environment will be actually creating a Rails project. 
 
-Assuming your environment has been set up correctly, initializing your mini-project is pretty easy. 
+Assuming your environment has been set up correctly, initializing your mini-project is easy. Simply run the following command: 
 
 ```
 rails new my-project-name
 ```
 
-Replace `my-project-name` with the name you want for your project. This will also determine the name of the folder your project lives in.
+Replace `my-project-name` with the name you want for your project. This will also determine the name of the folder that your project "lives in" (i.e. where it is stored).
 
 For example:
 ```
 rails new miniproject-devlog
 ```
-result --> Creates a new folder `miniproject-devlog` in my current ("working") directory
+result --> Creates a new folder `miniproject-devlog` in my current ("working") directory.
 
 #### Step 3: Use Git + GitHub to Save Your Code Base
 
-After you've created your new Rails project, you'll need to create a git repository on your computer (a "local" copy), as well as a repository on GitHub to store it online (a "remote" copy).
+After you've created your new Rails project, you'll need to make a git repository on your computer (a "local" copy), as well as a repository on GitHub to store it online (a "remote" copy).
 
 To do this, navigate to your new Rails project in the Command Line:
 
@@ -157,7 +158,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-To add in all of the files you created in this new Rails project, use the `git add` command, followed by a `-A .` . The dot (`.`) stands for the current directory, so everything in and beneath it is added. The `-A` ensures even file deletions are included.
+To add in all of the files you created in this new Rails project, use the `git add` command, followed these arguments: `-A .`. The dot (`.`) stands for the current directory, so everything in and beneath it is added. The `-A` ensures even file deletions are included.
 
 ```
 git add -A .
@@ -196,16 +197,20 @@ git push -u miniproject-remote master
 
 The `-u` flag will tell Git to save these settings. After you've run this command successfully, you can do all additional pushes by using just the `git push` command, without adding any other arguments. 
 
+```
+git push
+```
+
 
 #### Step 4: Take Notes of What's New to You
 
-While you go through the "Getting Started with Rails" tutorial (below), you will come across vocabulary and concepts that is new to you. When you do, write it down! You can reference these notes to update us on your progress, to figure out which questions you want to ask, and to get help from the #HourofCode coordinators.
+While you go through the "Getting Started with Rails" tutorial (below), you will come across vocabulary and concepts that are new to you. When you do, write it down! You can reference these notes to update us on your progress, to figure out which questions you want to ask, and to get help from the #HourofCode coordinators.
 
 Additionally, after you've completed this project, you can put your notes into your new Dev Log to use for easy reference later on.
 
 #### Step 5: Use the "Getting Started with Rails" Tutorial
 
-Time to roll up your sleeves and get coding! Go to the official [Getting Started with Rails Tutorial](http://guides.rubyonrails.org/getting_started.html). 
+Time to roll up your sleeves and get coding! Go to the [Getting Started with Rails Guide](http://guides.rubyonrails.org/getting_started.html). 
 
 Your goal is to complete the objectives in [Chapter 1](http://guides.rubyonrails.org/getting_started.html#guide-assumptions) - [Chapter 5](http://guides.rubyonrails.org/getting_started.html#getting-up-and-running) in the tutorial. 
 
@@ -214,10 +219,10 @@ Your goal is to complete the objectives in [Chapter 1](http://guides.rubyonrails
 As you work on your RoR project, check-in with us by responding to the [Week 1 - RoR Mini-Project discussion thread](https://groups.google.com/forum/#!forum/hourofcode-at-southseattlecollege) on #HourofCode's Google Group. 
 
 Let us know how things are going! Such as:
-- errors encountered
-- questions and/or frustrations
-- new words/terms that need explanataion 
-- cool things you've learned about Ruby on Rails
-- and more!
+- Errors you've encountered
+- Your questions and/or frustrations
+- New words/terms that need explanataion 
+- Cool things you've learned about Ruby on Rails
+- And more!
 
 We want to hear from you, so please [keep us in the loop](https://groups.google.com/forum/#!forum/hourofcode-at-southseattlecollege)!
