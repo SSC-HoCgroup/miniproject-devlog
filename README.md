@@ -40,27 +40,27 @@ To do this, type the name of the program, followed by the "--version" tag.
 ```
 git --version
 ```
---> git version 2.3.2 (Apple Git-55)
+result --> git version 2.3.2 (Apple Git-55)
 
 ```
 ruby --version
 ```
---> ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
+result --> ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
 
 ```
 gem --version
 ```
---> 2.4.5
+result --> 2.4.5
 
 ```
 rails --version
 ```
---> Rails 4.2.0
+result --> Rails 4.2.0
 
 ```
 sqlite3 --version
 ```
---> 
-3.8.5 2014-08-15 22:37:57 c8ade949d4a2eb3bba4702a4a0e17b405e9b6ace
+result --> 3.8.5 2014-08-15 22:37:57 c8ade949d4a2eb3bba4702a4a0e17b405e9b6ace
 
 ##### Step 2:  
+
