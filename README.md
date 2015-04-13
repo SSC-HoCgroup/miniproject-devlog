@@ -45,7 +45,7 @@ When you fix errors and "bugs", remember to **make notes of any fixes you make**
 
 #### Step 1: Verify Your Environment Setup
 
-It's a good idea before you start to confirm what software is (and is not) installed on your primary programming computer (often referred to as your "development environment"). 
+It's a good idea before you start coding to confirm what software is (and is not) installed on your primary programming computer (often referred to as your "local development environment"). 
 
 To do this, enter the command for the program in your Command Line program ([Cygwin](https://www.cygwin.com/) for Windows, or [Terminal](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line) for Mac OSX), followed by the "--version" tag. 
 
@@ -109,7 +109,7 @@ result --> Creates a new folder `miniproject-devlog` in my current ("working") d
 
 #### Step 3: Use Git + GitHub to Save Your Code Base
 
-After you've created your new Rails project, you want to create a git repository on your computer (a "local" copy), as well as a repository on GitHub to store it online (a "remote" copy).
+After you've created your new Rails project, you'll need to create a git repository on your computer (a "local" copy), as well as a repository on GitHub to store it online (a "remote" copy).
 
 To do this, navigate to your new Rails project in the Command Line:
 
@@ -159,13 +159,17 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 To add in all of the files you created in this new Rails project, use the `git add` command, followed by a `-A .` . The dot (`.`) stands for the current directory, so everything in and beneath it is added. The `-A` ensures even file deletions are included.
 
+```
+git add -A .
+```
+
 Once your files have been added to the repository, save your changes to your local version by using the `git commit` command. Be sure to include a short, descriptive message (as shown below).
 
 ```
 git commit -m "This is a brand new Rails project. It is fresh and clean!"
 ```
 
-Next, go to your GitHub account, and create a new repository (if you've never done this before, [follow these instructions](https://help.github.com/articles/creating-a-new-repository/)). 
+Next, go to your [GitHub](https://github.com/) account, and create a new repository (if you've never done this before, [follow these instructions](https://help.github.com/articles/creating-a-new-repository/)). 
 
 Once the repository is created, go back to your command line, and add a new "remote" repository by using the `git remote add` command:
 
@@ -190,7 +194,7 @@ For example:
 git push -u miniproject-remote master
 ```
 
-The `-u` flag will tell Git to save these settings. After you've run this command successfully, you can do all additional pushes by using just the `git push` command, without any additional conditions. 
+The `-u` flag will tell Git to save these settings. After you've run this command successfully, you can do all additional pushes by using just the `git push` command, without adding any other arguments. 
 
 
 #### Step 4: Take Notes of What's New to You
@@ -201,3 +205,19 @@ Additionally, after you've completed this project, you can put your notes into y
 
 #### Step 5: Use the "Getting Started with Rails" Tutorial
 
+Time to roll up your sleeves and get coding! Go to the official [Getting Started with Rails Tutorial](http://guides.rubyonrails.org/getting_started.html). 
+
+Your goal is to complete the objectives in [Chapter 1](http://guides.rubyonrails.org/getting_started.html#guide-assumptions) - [Chapter 5](http://guides.rubyonrails.org/getting_started.html#getting-up-and-running) in the tutorial. 
+
+#### Step 6: Let Us Know How It's Going!
+
+As you work on your RoR project, check-in with us by responding to the [Week 1 - RoR Mini-Project discussion thread](https://groups.google.com/forum/#!forum/hourofcode-at-southseattlecollege) on #HourofCode's Google Group. 
+
+Let us know how things are going! Such as:
+- errors encountered
+- questions and/or frustrations
+- new words/terms that need explanataion 
+- cool things you've learned about Ruby on Rails
+- and more!
+
+We want to hear from you, so please [keep us in the loop](https://groups.google.com/forum/#!forum/hourofcode-at-southseattlecollege)!
